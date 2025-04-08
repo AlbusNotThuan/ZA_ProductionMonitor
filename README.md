@@ -12,7 +12,7 @@ A web-based production monitoring system with barcode scanner integration.
 ## Installation
 1. Clone the repository
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/AlbusNotThuan/ZA_ProductionMonitor.git
 ```
 
 2. Install requirements
