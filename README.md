@@ -33,5 +33,5 @@ python main.py
 ## Files
 - `main.py`: Main process controller
 - `webapp.py`: Web server
-- `test2.py`: Barcode scanner handler
+- `scanner_recipient.py`: Barcode scanner handler
 - `reset_json.py`: Auto-reset scheduler
