@@ -22,7 +22,7 @@ def run_processes():
         while True:
             if scanner.poll() is not None:
                 print("Scanner process died, restarting...")
-                scanner = subprocess.Popen([sys.executable, 'test2.py'])
+                scanner = subprocess.Popen([sys.executable, 'scanner_recipient.py'])
 
             if reset_scheduler.poll() is not None:
                 print("Reset scheduler died, restarting...")
